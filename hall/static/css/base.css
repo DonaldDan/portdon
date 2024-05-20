@@ -1,0 +1,90 @@
+/*BODY for patent content adjustment*/
+.container{
+    display: flex;
+    align-items: center; /* Centers content vertically if the container has a height */
+    justify-content: flex-start;
+    /*position: fixed;*/
+}
+
+.logo img{
+    display: block;
+            margin: 0 auto;
+            width: 100px; /* Adjust the width as needed */
+            height: 100px; /* Maintains aspect ratio */
+            border-radius: 50%;
+}
+
+.navbar{
+    width: 50%;
+    background-color: #20c760;
+    border-radius: 50px;
+    display: inline-flex;
+    margin-left: 710px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-around; /* Evenly distributes the menu items */
+    list-style: none;
+    padding: 10;
+    margin: 0;
+}
+.nav-menu li {
+    flex: 1; /* Allows items to grow and shrink as needed */
+    text-align: center; /* Centers the text within each menu item */
+}
+.nav-menu li a {
+    display:inline-block;
+    margin:0 15px;
+    padding: 15px 20px; /* Adjust padding as needed */
+    color: white; /* Adjust text color as needed */
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+.nav-menu li a:hover {
+    background-color: #e70c1e; /* Adjust hover background color as needed */
+}
+
+
+/*footer section*/
+.navfooter {
+    display: flex;
+    align-items: center; /* Vertically centers content if needed */
+    justify-content: space-between; /* Space between logo and nav links */
+    padding: 10px; /* Adjust padding as needed */
+    background-color: #d41f1f; /* Adjust background color as needed */
+}
+
+.logofooter img {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px;
+    border-radius: 50%;
+    height: auto; /* Maintains aspect ratio */
+}
+
+.navfooterlinks {
+    list-style-type: none; /* Removes bullet points */
+    display: flex;
+    gap: 20px; /* Adjust spacing between links as needed */
+    padding: 0;
+    margin: 0;
+}
+
+.navfooterlinks li {
+    display: inline; /* Ensures list items are inline */
+}
+
+.navfooterlinks a {
+    color: white; /* Adjust text color as needed */
+    text-decoration: none;
+    padding: 10px; /* Adjust padding as needed */
+    border-radius: 50px; /* Adds slight rounding to links */
+}
+
+.navfooterlinks a:hover {
+    background-color: #03e016; /* Adjust hover background color as needed */
+}
+#rights{
+    text-align: center;
+    font-weight: bold;
+}
